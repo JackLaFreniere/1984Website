@@ -447,6 +447,14 @@ p {
   gap: 1rem;
 }
 
+.theme-quote {
+  font-size: large;
+}
+
+.theme-pagenumber {
+  text-align: left;
+}
+
 .quote {
   margin: 1rem 0;
   padding: 0.9rem 1rem 0.9rem 1.1rem;
@@ -632,6 +640,7 @@ footer {
 .simple-notes {
   margin: 0.9rem 0 0;
   padding-left: 1.1rem;
+  line-height: 28px;
   color: var(--ink);
 }
 
@@ -653,3 +662,19 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+.simple-image-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+
+.simple-image-slot.has-image {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
