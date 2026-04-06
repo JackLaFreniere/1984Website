@@ -613,17 +613,13 @@ footer {
   min-height: 250px;
   display: grid;
   place-items: center;
-  padding: 1rem;
+  padding: 0;
   border-radius: 16px;
   border: 1px dashed rgba(154, 166, 184, 0.28);
   background:
     linear-gradient(135deg, rgba(208, 71, 60, 0.1), transparent),
     rgba(10, 13, 20, 0.62);
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.8rem;
-  text-align: center;
+  overflow: hidden;
 }
 
 .simple-image-slot.alt {
@@ -667,14 +663,5 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 12px;
   display: block;
 }
-
-
-.simple-image-slot.has-image {
-  padding: 0;
-  border: 0;
-  background: transparent;
-}
-
